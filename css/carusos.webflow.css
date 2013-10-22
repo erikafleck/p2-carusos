@@ -65,6 +65,7 @@ p {
   height: 50px;
   margin: 4px auto 26px;
   padding: 17px 21px;
+  float: right;
   background-color: #009816;
   box-shadow: black 1px 1px 3px 0px;
   font-family:'Droid Sans', sans-serif;
@@ -105,7 +106,10 @@ p {
   padding: 20px 18px;
   border-left: 1px solid rgba(255, 255, 255, 0.4);
   background-color: black;
+  font-family:'Droid Sans', sans-serif;
   color: white;
+  font-size: 14px;
+  font-weight: 400;
   text-align: center;
   text-decoration: none;
 }
@@ -199,6 +203,12 @@ p {
   margin-bottom: 20px;
   padding-bottom: 12px;
   background-color: rgba(89, 0, 92, 0.49);
+}
+.photo_frame {
+  box-shadow: black 1px 1px 3px 0px;
+}
+.locations {
+  font-family:'Droid Sans', sans-serif;
 }
 @media (max-width: 991px) {
   .hero-column {
